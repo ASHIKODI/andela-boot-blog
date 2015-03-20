@@ -68,18 +68,18 @@ $(document).ready(function(){
 			}
 		}
 		
-       $('#content').html(localStorage.getItem('savedpost'));
-    });
+       		$('#content').html(localStorage.getItem('savedpost'));
+    	});
 
 	$(document).on('click', '.likediv', function(){
-    	$(this).html("<div class = 'spanlike'>1 Like</div>");
-        var blogposts = $("#content").html();
-        localStorage.setItem('savedpost', blogposts);
-        document.reload();
-    });
-    $(document).on('click', '.spanlike', function(){
-    	$(this).html("<img class = 'icons' src = 'http://cdn.flaticon.com/png/256/20664.png' />");
-        var blogposts = $("#content").html();
-        localStorage.setItem('savedpost', blogposts);
-    });
+    		$(this).html("<div class = 'spanlike'>1 Like</div>");
+        	var blogposts = $("#content").html();
+        	localStorage.setItem('savedpost', blogposts);
+        	document.reload();
+    	});
+    	$(document).on('click', '.spanlike', function(){
+    		$(this).html("<img class = 'icons' src = 'http://cdn.flaticon.com/png/256/20664.png' />");
+        	var blogposts = $("#content").html();
+        	localStorage.setItem('savedpost', blogposts);
+    	});
 });
