@@ -213,13 +213,3 @@ h1 {
 	color: black;
 	cursor: pointer;
 }
-@media(max-width: 1300px){
-    #advert_left {
-	    display: none;
-    }
-}
-@media(max-width: 600px){
-	h1 {
-		font-size: 60px;
-	}
-}
