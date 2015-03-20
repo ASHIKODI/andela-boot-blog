@@ -1,0 +1,224 @@
+body {
+	z-index: -1;
+	background: url('http://i.imgur.com/s1qUd0i.jpg');
+	background-size: cover;
+	background-position: center;
+}
+#blog_body {
+	height:auto;
+	width: auto;
+	margin: 0 auto;
+	margin-top: 0;
+		
+}
+#txt_blog {
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding: 5px;
+	width: 610px;
+	height: 200px;
+	font-size: 28px;
+	font-family: Courier;
+	color: #191970;
+	margin: 0 auto;
+	margin-top: 0px;
+	clear: both;
+}
+#username_txtbx {
+	border-radius: 7px;
+	padding: 0;
+	width: 200px;
+	height: 35px;
+	font-size: 26px;
+	font-family: Times;
+	color: #191970;
+	margin-left: 0;
+	margin-top: 0;
+}
+#password_txtbx {
+	border-radius: 7px;
+	padding: 0;
+	width: 200px;
+	height: 35px;
+	font-size: 26px;
+	font-family: Times;
+	color: #191970;
+	margin-left: 20px;
+	margin-top: 0;
+}
+#footer_post {
+	position: relative;
+	height: 70px;
+	width: 620px;
+	margin: 0 auto;
+	border: none;
+	background-color: black;
+	margin-top: 5px;
+	clear: both;
+}
+#post_button {
+	cursor: pointer;
+	margin-top: 2px;
+	margin-left: 0;
+	font-size: 32px;
+	background-color: #4682b4;
+	border-radius: 10px;
+	color: white;
+}
+#post_button:hover {
+	cursor: pointer;
+	margin-top: 2px;
+	margin-left: 0;
+	font-size: 32px;
+	background-color: #36648b;
+	border-radius: 10px;
+	color: white;
+	margin: 2px solid #36648b;
+}
+#post_div {
+	overflow: auto;
+	height: 45px;
+	width: auto;
+	background-color: #C0C0C0;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+header{
+	position: relative;
+	height: 120px;
+	width:auto;
+	z-index: 1;
+	color: white;
+	border-bottom: 3px solid #4a708b;
+	background-color: black;
+	margin: 0 auto;
+	top: -10px;
+}
+h1 {
+  font-family: 'Londrina Shadow', cursive;
+  text-align: center;
+  font-size: 90px;
+  color: #aaaaaa;
+  margin: 0 auto;
+}
+.seperator {
+	height: 3px;
+	width: auto;
+	background-color: gray;
+}
+#container {
+	position: relative;
+	width: 610px;
+	height: auto;
+	margin: 200px auto 0 auto;
+	border-radius: 7px;
+	
+}
+#content {
+	width: 610px;
+	height: auto;
+	margin: 0 auto;
+	border-radius: 7px;
+	clear: both;
+	position: relative;
+}
+.user_blog {
+	width: 610px;
+	position: relative;
+	margin: 5px auto 5px auto;
+	min-height: 10px;
+	background-color: #cdc1c5;
+	text-align: justify;
+	color: black;
+	padding: 3px;
+	font-size: 20px;
+	font-family: Courier;
+	font-weight: bold;
+	border-radius: 8px;
+}
+.username_span {
+	font-family: sans-serif;
+	color:#2f4f4f;
+	font-size: 22px;
+	font-weight: bolder;
+}
+.icons {
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	background-color: transparent;
+		
+}
+.deleteicon {
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	background-color: transparent;
+}
+.deleteicon:hover {
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	background-color: transparent;
+}
+#deletediv {
+	height: 40px;
+	width: 40px;
+	background-color: transparent;
+}
+#advert_left {
+	position: fixed;
+	height: 500px;
+	max-width: 350PX;
+	width: auto;
+	border-bottom: 10px solid #4a708b;
+}
+#info_head {
+	width: auto;
+	height: auto;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	background-color: #708090;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	color: black;
+	font-family: Garamond;
+	font-size: 20px;
+	font-weight: bolder;
+}
+#info_div {
+	width: auto;
+	height: auto;
+	color:white;
+	padding: 10px;
+	text-align: justify;
+	background-color: black;
+	font-family: arial;
+}
+#advert_img {
+	width: 350px;
+	height: 280px;
+}
+.likediv {
+	width:110px;
+	height: 30px;
+	color: black;
+	cursor: pointer;
+}
+.spanlike {
+	width:110px;
+	height: 30px;
+	color: black;
+	cursor: pointer;
+}
+@media(max-width: 1300px){
+    #advert_left {
+	    display: none;
+    }
+}
+@media(max-width: 600px){
+	h1 {
+		font-size: 60px;
+	}
+}
