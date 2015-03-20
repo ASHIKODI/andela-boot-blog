@@ -8,8 +8,9 @@ $(document).ready(function(){
 		var now = new Date();
 		var newBlogchk = $('#txt_blog').val();
 		var userNamechk = $('#username_txtbx').val();
-		var userName = userNamechk.replace(/</g, "000");
-		var newBlog = newBlogchk.replace(/</g, "000");
+		var userName = userNamechk.replace(/</g, "");
+		var newBlog = newBlogchk.replace(/</g, "");
+		newBlog = newBlog.trim();
 		var passcd = $('#password_txtbx').val();
 		if(userName===""){
 			alert("input username");
@@ -23,6 +24,7 @@ $(document).ready(function(){
 			alert("Write a post");
 			document.reload();
 		}
+		
 		if(user.indexOf(userName)===-1){
 			alert("Invalid Username");
 			document.reload();
